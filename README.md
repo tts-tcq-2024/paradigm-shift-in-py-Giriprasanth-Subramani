@@ -57,3 +57,8 @@ Shorten the Semantic distance
 - Functional to express relation between input and output
 - Object oriented to encapsulate state with actions
 - Apect oriented to capture repeating aspects
+
+## Extend and refactor 1
+
+- added status message handling for the parameters with 5% tolerance ranges
+- added language handling for status messages
