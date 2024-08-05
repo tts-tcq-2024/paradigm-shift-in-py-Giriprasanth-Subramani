@@ -5,10 +5,10 @@ def PrintMessageonConsole(message):
     print(message)
     
 def battery_is_ok(temperature, soc, charge_rate,language = 'English'):    
-    language_index = lh.language_selection(language)
-    if language_index == "Language not supported":
-        PrintMessageonConsole(language_index)
-        return False
+  #  language_index = lh.language_selection(language)
+  #  if language_index == "Language not supported":
+   #     PrintMessageonConsole(language_index)
+     #   return False
     else:
         Temperature_status = sc.CheckTemperatureInRange(temperature,language)        
         SOC_status = sc.CheckSocInRange(soc,language)        
